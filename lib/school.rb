@@ -22,7 +22,7 @@ class School
     binding.pry
     roster.each { |key, value|
       puts key
-      puts value
+      puts value.humanize
       value.sort
     }
   end
