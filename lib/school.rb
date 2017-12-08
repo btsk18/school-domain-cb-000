@@ -21,7 +21,7 @@ class School
   def sort
     binding.pry
     roster.each { |key, value|
-      roster[key].sort
+      value.sort
     }
   end
 end
