@@ -18,6 +18,7 @@ class School
   end
 
   def sort
+    binding.pry
     roster.each { |key, value|
       value.sort
     }
