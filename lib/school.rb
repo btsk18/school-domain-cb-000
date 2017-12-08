@@ -18,10 +18,8 @@ class School
   end
 
   def sort
-    roster.include Enumerable
-
-    def each(&block)
-      
-    end
+    roster.each { |key, value|
+      value.sort
+    }
   end
 end
