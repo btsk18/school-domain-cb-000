@@ -20,7 +20,7 @@ class School
 
   def sort
     binding.pry
-    roster.keys.each { |key, value|
+    roster.each { |key, value|
       roster[key].sort
     }
   end
