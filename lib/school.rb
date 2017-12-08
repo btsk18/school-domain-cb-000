@@ -1,5 +1,4 @@
 # code here!
-require 'pry'
 class School
 
   attr_accessor :roster
@@ -19,11 +18,8 @@ class School
   end
 
   def sort
-    binding.pry
     roster.each { |key, value|
-      puts key
-      puts value.humanize
-      value.sort
+      value.sort!
     }
   end
 end
